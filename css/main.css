@@ -1161,7 +1161,7 @@ header {
         text-align: center; }
   .slider .icon-play {
     margin-top: 50px; }
-  .slider .button-section {
+  #from {
     margin-top: 50px; }
   .slider .description {
     margin-bottom: 30px;
@@ -1488,6 +1488,7 @@ header {
 /*==========   Start Footer Section ==========*/
 footer {
   padding-top: 90px;
+  padding-bottom: 30px;
   background-color: #29282b; }
   footer .heading-title {
     margin-bottom: 30px; }
@@ -2635,7 +2636,7 @@ input:focus, .form-control:focus {
     position: absolute;
     right: -15px;
     top: 28%; }
-  .features .button-section {
+  #from {
     margin-top: 50px; }
   .avatar-80 {
     width: 50px; } }
