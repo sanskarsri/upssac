@@ -2870,7 +2870,7 @@ input:focus, .form-control:focus {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   /*Slider*/ }
-#blink{
+/* #blink{
   transition: 0.3s ease;
   animation: blinking 3000ms linear infinite;
 }
@@ -2888,4 +2888,4 @@ input:focus, .form-control:focus {
     opacity: 1;
     transform: scale(1.4);
   }
-}
+} */

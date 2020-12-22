@@ -12,8 +12,9 @@
 	<meta name="language" content="English">
 	<meta name="revisit-after" content="1 days">
 	<meta name="author" content="Sanskar Srivastava,Prakhar Saxena,Yash Kothari,Nimish Bhandari">
+
+	<!-- build:css css/main.css -->
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
-	<!-- Icon fonts -->
 	<link rel="stylesheet" href="libs/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 	<link rel="stylesheet" href="libs/font-awesome-4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/superfish-master/css/superfish.css">
@@ -21,18 +22,20 @@
 	<link rel="stylesheet" href="libs/ytp-player/css/jquery.mb.YTPlayer.min.css">
 	<link rel="stylesheet" href="libs/slick/slick.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
-
-	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:400,600,700" rel="stylesheet">
-
-	<!-- Main styles -->
 	<link rel="stylesheet" href="css/main.css">
+	<!-- endbuild -->
+
 	<style>
 		.socialite {
 			padding-bottom: 0;
 			-webkit-box-shadow:none ; 
 			box-shadow:none; 
 			z-index: 3;
+		}
+		.testimonials .item-testimonials img {
+			-webkit-border-radius: 0%; 
+			border-radius: 0%; 
 		}
 	</style>
 
@@ -54,7 +57,7 @@
 						<li><a target="_blank" href="https://sites.google.com/view/ieeeupsectionevent/schedule?authuser=0" class="smooth-scroll">Schedule</a></li>
 						<li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSePCZEQMdNHuDt3BvxjZ-6U3kL6BshGD_AKbcEb8TESigbRUw/viewform" class="smooth-scroll">Registration</a></li>
 						<li><a target="_blank" href="https://sites.google.com/view/ieeeupsectionevent/speakers?authuser=0" class="smooth-scroll">Speakers</a></li>
-					<li><a href="#contact-icon" class="smooth-scroll">Contact</a></li>
+					<li><a href="contacts.html" class="smooth-scroll">Contact</a></li>
 					</ul>
 				</nav>
 				<!-- Toggle menu -->
@@ -69,7 +72,7 @@
 								<li><a target="_blank" href="https://sites.google.com/view/ieeeupsectionevent/schedule?authuser=0" class="smooth-scroll">Schedule</a></li>
 						<li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSePCZEQMdNHuDt3BvxjZ-6U3kL6BshGD_AKbcEb8TESigbRUw/viewform" class="smooth-scroll">Registration</a></li>
 						<li><a target="_blank" href="https://sites.google.com/view/ieeeupsectionevent/speakers?authuser=0" class="smooth-scroll">Speakers</a></li>
-						<li><a href="#contact-icon" class="smooth-scroll">Contact</a></li>
+						<li><a href="contacts.html" class="smooth-scroll">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -180,7 +183,7 @@
 					</div>
 					<div id="portfolio">
 					<!-- Start Block item -->
-						<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-1">
+						<!-- <div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-1">
 							<a href="img/P4.jpg" class="link-portfolio">
 								<div class="item-portfolio">
 									<div class="preview-container">
@@ -191,7 +194,7 @@
 									<img src="img/P4.jpg" alt="screnshot">
 								</div>
 							</a>
-						</div>
+						</div> -->
 
 					<!-- Block item -->
 
@@ -209,7 +212,7 @@
 						</div>
 					<!-- Block item -->
 
-						<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-3">
+						<div class="col-md-4 col-lg-4 col-sm-4 col-xs-6 mix category-3 category-1">
 							<a href="img/P1.jpg" class="link-portfolio">
 								<div class="item-portfolio">
 									<div class="preview-container">
@@ -230,12 +233,12 @@
 
 <!-- Start Testimonials Section -->
 
-	<!-- <section class="testimonials bg-mask-black bg-image" data-image="img/bg2.jpg" id="testimonials">
+	<section class="testimonials bg-mask-black bg-image" data-image="img/bg2.jpg" id="testimonials">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-push-2">
 					<div class="heading-title">
-						<h2>Speakers</h2>
+						<h2>Organizers</h2>
 					</div>
 				</div>
 			</div>
@@ -243,39 +246,35 @@
 				<div class="container-carousel">
 					<div class="testimonials-items">
 						<div class="col-md-4">
-							<div class="item-testimonials">
-								<img src="img/ava.jpg" alt="photo">
-
-								<span>Alex Rezvova</span>
-								<span>Designer, Company name</span>
+							<div class="item-testimonials" style="height: 160px;width:300px;">
+								<a href="http://ieeepsitsb.tech" target="_blank" style="text-decoration:none;"><img style="height:100px;width:240px" src="img/psit-logo.jpeg" alt="photo"></a>
 							</div>
 						</div>
 
 						<div class="col-md-4">
-							<div class="item-testimonials">
-								<img src="img/ava2.jpg" alt="photo">
+							<div class="item-testimonials" style="height: 160px;padding:0;width:300px;">
+								<a href="http://techsrijan.org/ieee_sb/" target="_blank" style="text-decoration:none;"><img style="height:160px;width:200px;" src="img/sb_logo.png" alt="photo"></a>
 
-								<span>Jacob Kai</span>
-								<span>Creative Director, Company name</span>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="item-testimonials">
-								<img src="img/ava3.jpg" alt="photo">
+							<div class="item-testimonials" style="height: 160px;width:300px;">
+								<a href="kiet.edu" target="_blank" style="text-decoration:none;"><img style="height:100px;width:240px" src="img/kiet-logo.png" alt="photo"></a>
 
-								<span>Albin Erlend</span>
-								<span>Programer, Company name</span>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="item-testimonials">
-								<img src="img/ava4.jpg" alt="photo">
-
-								<span>Alex Rezvova</span>
-								<span>Designer, Company name</span>
+							<div class="item-testimonials" style="height: 160px;width:300px;">
+								<a href="https://edu.ieee.org/in-bbdnitm/" target="_blank" style="text-decoration:none;"><img style="height:100px;width:240px" src="img/bbd-logo.png" alt="photo"></a>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<!--<div class="col-md-4">
+							<div class="item-testimonials">
+								<img src="img/ava5.jpg" alt="photo">
+
+							</div>
+						</div>
+						 <div class="col-md-4">
 							<div class="item-testimonials">
 								<img src="img/ava5.jpg" alt="photo">
 
@@ -290,15 +289,7 @@
 								<span>Jacob Kai</span>
 								<span>Creative Director, Company name</span>
 							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="item-testimonials">
-								<img src="img/ava5.jpg" alt="photo">
-
-								<span>Jacob Kai</span>
-								<span>Creative Director, Company name</span>
-							</div>
-						</div>
+						</div> -->
 
 					</div>
 					<div class="prev-next-block" id="control-testimonials">
@@ -309,7 +300,7 @@
 				<div class="dots-screenshot" id="dots-control-testimonials"></div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 
 <!-- Start Contact Form Section -->
 
@@ -403,12 +394,11 @@
         <a href="#top" class="smooth-scroll"><i class="pe-7s-angle-up"></i></a>
     </div>
 
-	<!-- LIBS -->
+	<!-- build:js js/main.js -->
 	<script src="libs/jquery/jquery-1.12.0.min.js"></script>
 	<script src="js/libs.js" ></script>
-
-	<!-- Use scripts -->
 	<script src="js/common.js"></script>
+	<!-- endbuild -->
 
 </body>
 </html>
